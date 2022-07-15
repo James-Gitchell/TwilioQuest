@@ -9,8 +9,8 @@
 
 class Materializer{
     
-    constructor(arg) {
-        this.target = arg;
+    constructor(target) {
+        this.target = target;
         this.activated = false;
      }
      activate(){
@@ -50,4 +50,4 @@ an activated property that defaults to false
 an instance function called activate that sets activated to true
 an instance function called materialize that returns the value of an instance's target property
  if the activated property is set to true. Otherwise, it returns undefined (nothing is returned).*/
-/*
+
