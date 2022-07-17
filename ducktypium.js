@@ -40,8 +40,6 @@ class Ducktypium {
          }
         }
 
-
-
 /* my logic that didn't work and I see why now*/
 /*
 class Ducktypium {
@@ -61,8 +59,6 @@ class Ducktypium {
     this.calibrationSequence = []
     
     }
-
-
 refract(colorStr){
     let error = "an error has occured";
     colorStr = this.color;
@@ -92,9 +88,6 @@ refract(colorStr){
            console.log(error)
           }
         }
-
-
-
 calibrate(arr){
     const sorted = arr.sort((a, b) => a < b ? -1 : 1)
    const mapped = sorted.map(num => num * 3)
@@ -107,5 +100,3 @@ calibrate(arr){
    // let greenville = new Ducktypium("purple")
   //  console.log(greenville.color)
 */
-
-
